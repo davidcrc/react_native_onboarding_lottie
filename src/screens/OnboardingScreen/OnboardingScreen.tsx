@@ -39,7 +39,7 @@ const OnboardingScreen = () => {
         containerStyles={{ paddingHorizontal: 15 }}
         pages={[
           {
-            backgroundColor: '#a7f3d0',
+            backgroundColor: '#FFBDBD',
             image: (
               <View style={styles.lottie}>
                 <Lottie source={IMAGES.boostAnimation} autoPlay loop />
@@ -49,7 +49,7 @@ const OnboardingScreen = () => {
             subtitle: 'Subscribe this channel to boost your productivity level',
           },
           {
-            backgroundColor: '#fef3c7',
+            backgroundColor: '#E9FFBD',
             image: (
               <View style={styles.lottie}>
                 <Lottie source={IMAGES.workAnimation} autoPlay loop />
@@ -59,7 +59,7 @@ const OnboardingScreen = () => {
             subtitle: 'Get your work done seamlessly without interruption',
           },
           {
-            backgroundColor: '#a78bfa',
+            backgroundColor: '#D8BDFF',
             image: (
               <View style={styles.lottie}>
                 <Lottie source={IMAGES.achieveAnimation} autoPlay loop />
