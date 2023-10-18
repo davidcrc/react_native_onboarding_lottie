@@ -1,4 +1,4 @@
-Onboarding using lottie
+Onboarding using react-native-onboarding-swiper , lottie-react-native
 
 # Getting Started
 
@@ -45,3 +45,11 @@ yarn ios
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+![alt text for screen readers](/resources/Screenshot_2023-10-18_2.png 'Screen2')
+
+![alt text for screen readers](/resources/Screenshot_2023-10-18_3.png 'Screen2')
+
+![alt text for screen readers](/resources/Screenshot_2023-10-18_4.png 'Screen2')
+
+![alt text for screen readers](/resources/Screenshot_2023-10-18_5.png 'Screen2')
