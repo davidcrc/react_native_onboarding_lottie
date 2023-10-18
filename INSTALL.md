@@ -4,6 +4,12 @@
 npx react-native@latest init react_native_onboarding_lottie --template react-native-template-typescript
 ```
 
+- AFTER INSTALL LIBRARIES
+
+```bash
+cd ios && pod install && cd ..
+```
+
 # ESLINT
 
 ```bash
@@ -218,4 +224,57 @@ module.exports = {
     ],
   ],
 };
+```
+
+<!--  -->
+
+# Add react navigation ( run: pod install )
+
+```bash
+yarn add @react-navigation/native react-native-screens react-native-safe-area-context
+```
+
+```bash
+yarn add @react-navigation/native-stack
+```
+
+# Add NativeWind
+
+```bash
+yarn add nativewind
+```
+
+```bash
+yarn add -D tailwindcss@3.3.2
+```
+
+- run:
+
+```bash
+npx tailwindcss init
+```
+
+- add folders that will use tailwind (tailwind.config.js)
+
+```js
+module.exports = {
+  // ...
+  content: ['./src/App.{js,jsx,ts,tsx}', './src/screens/**/*.{js,jsx,ts,tsx}', './src/components/**/*.{js,jsx,ts,tsx}'],
+  // ...
+};
+```
+
+- add to babel.config.js
+
+```js
+module.exports = {
+  // ...
+  plugins: ["nativewind/babel", ...(other plugins)],
+}
+```
+
+- for typescript projects, create: app.d.ts, and add:
+
+```ts
+/// <reference types="nativewind/types" />
 ```
