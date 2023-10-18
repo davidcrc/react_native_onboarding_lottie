@@ -278,3 +278,31 @@ module.exports = {
 ```ts
 /// <reference types="nativewind/types" />
 ```
+
+<!--  -->
+
+# Add react-native-onboarding-swiper
+
+```bash
+yarn add react-native-onboarding-swiper
+```
+
+```bash
+yarn add -D @types/react-native-onboarding-swiper
+```
+
+# Add Lottie
+
+```bash
+yarn add lottie-react-native@5.1.6
+```
+
+```bash
+yarn add lottie-ios@3.4.0
+```
+
+# Add asyncstorage
+
+```bash
+yarn add @react-native-async-storage/async-storage
+```
